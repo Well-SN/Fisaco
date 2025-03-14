@@ -3,7 +3,7 @@ package NivelIntermediario.Desafio2.entities;
 import NivelIntermediario.Desafio2.entities.enums.TipoDeHabilidade;
 import NivelIntermediario.Desafio2.services.Ninja;
 
-public class NinjaBasico extends NinjaBase implements Ninja {
+public class NinjaBasico extends NinjaBase {
 
     public NinjaBasico(){
 

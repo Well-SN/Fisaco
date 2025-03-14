@@ -1,8 +1,9 @@
 package NivelIntermediario.Desafio2.entities;
 
 import NivelIntermediario.Desafio2.entities.enums.TipoDeHabilidade;
+import NivelIntermediario.Desafio2.services.Ninja;
 
-public abstract class NinjaBase {
+public abstract class NinjaBase implements Ninja {
 
     private String nome;
     private String aldeia;
