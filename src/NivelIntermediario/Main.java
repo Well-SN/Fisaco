@@ -1,5 +1,9 @@
 package NivelIntermediario;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -12,9 +16,8 @@ public class Main {
         System.out.println(sasuke.name);
         sasuke.ativaSharingan();
 
-
-
-        System.out.println(naruto.cirarClone());
+        Stack<String> stack = new Stack<>();
+         System.out.println(naruto.cirarClone());
         System.out.println(naruto.anosParaSeTornarHokage(18)+" Anos");
 
 

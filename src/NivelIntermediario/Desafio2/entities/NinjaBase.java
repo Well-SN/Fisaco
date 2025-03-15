@@ -21,6 +21,7 @@ public abstract class NinjaBase implements Ninja {
         this.habilidade = habilidade;
     }
 
+
     public String getNome() {
         return nome;
     }
